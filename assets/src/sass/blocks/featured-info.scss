@@ -1,0 +1,53 @@
+@import "../colors";
+
+.wp-block-ow-feature-block-featured-info {
+
+	.featured-info-icon {
+		display: inline-block;
+		margin-bottom: 18px;
+
+		img {
+			max-width: 92px;
+			max-height: 82px;
+		}
+	}
+
+	.featured-info-block {
+		display: flex;
+		justify-content: space-between;
+
+		.featured-info-block__item {
+			flex-basis: 47%;
+			border-top: 1px solid $black;
+			padding-top: 30px;
+		}
+
+		.featured-info-block__left__title {
+			font-size: 70px;
+		}
+
+		.featured-info-block__left__desc {
+			font-size: 30px;
+		}
+
+		.featured-info-block__left__link {
+			color: $black;
+			font-size: 25px;
+			font-style: italic;
+
+			svg {
+				margin-left: 5px;
+			}
+		}
+
+		.featured-info-block__right {
+			img {
+				border-radius: 3px;
+			}
+		}
+	}
+}
+
+.editor-post-featured-image {
+	width: 100%;
+}

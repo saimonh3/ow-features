@@ -1,0 +1,240 @@
+@import "blocks/hero-numbers";
+@import "blocks/info-box";
+@import "blocks/featured-info";
+@import "blocks/recent-posts";
+@import "blocks/testimonials";
+@import "blocks/contact-form";
+@import "block-patterns/publishers-autonomy";
+@import "block-patterns/publishers-talk";
+@import "block-patterns/openweb-os-conversations";
+@import "block-patterns/leading-publishers";
+
+@font-face {
+	font-family: Copernicus;
+	font-style: normal;
+	src: resolve('GalaxieCopernicus-Book.woff2') format('woff2'),
+		resolve('GalaxieCopernicus-Book.woff') format('woff'),
+		resolve('GalaxieCopernicus-Book.eot') format('eot');
+}
+
+@font-face {
+	font-family: Copernicus;
+	font-style: italic;
+	src: resolve('GalaxieCopernicus-BookItalic.woff2') format('woff2'), /* Super Modern Browsers */
+		resolve('GalaxieCopernicus-BookItalic.woff') format('woff'), /* Modern Browsers */
+		resolve('GalaxieCopernicus-BookItalic.eot') format('eot'); /* IE */
+}
+
+@font-face {
+	font-family: Copernicus;
+	font-style: normal;
+	font-weight: 700;
+	src: resolve('GalaxieCopernicus-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+		resolve('GalaxieCopernicus-Bold.woff') format('woff'), /* Modern Browsers */
+		resolve('GalaxieCopernicus-Bold.eot') format('eot'); /* IE */
+}
+
+@font-face {
+	font-family: Copernicus;
+	font-style: italic;
+	font-weight: 700;
+	src: resolve('GalaxieCopernicus-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+		resolve('GalaxieCopernicus-BoldItalic.woff') format('woff'), /* Modern Browsers */
+		resolve('GalaxieCopernicus-BoldItalic.eot') format('eot'); /* IE */
+}
+
+$font__primary: 'Copernicus', serif;
+
+.wp-block {
+	font-family: $font__primary;
+	font-size: 18px;
+	letter-spacing: -0.18px;
+	line-height: normal;
+	max-width: 750px;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: 400;
+}
+
+.editor-post-title__block .editor-post-title__input {
+	font-weight: 400;
+}
+
+blockquote,
+.wp-block-quote {
+	border-bottom: 1px solid #000;
+	border-left: 0;
+	border-top: 1px solid #000;
+	font-size: 25px;
+	letter-spacing: -1.25px;
+	line-height: 1.08;
+	margin: 2em auto 1.3em;
+	padding: 4px 0;
+
+	@media screen and (min-width: 768px) {
+		font-size: 40px;
+		letter-spacing: -2.53px;
+		line-height: 1.08;
+		margin: 1.24em auto 0.8em;
+		padding: 10px 0;
+	}
+
+	&:first-child {
+		margin-top: -1px;
+	}
+
+	/* stylelint-disable declaration-no-important */
+	p {
+		margin-bottom: 1em !important;
+		margin-top: 1em !important;
+	}
+
+	/* stylelint-enable */
+
+	cite {
+		display: block;
+		font-size: 18px;
+		font-style: normal;
+		letter-spacing: -0.18px;
+		line-height: normal;
+
+		@media screen and (min-width: 768px) {
+			margin-top: -15px;
+		}
+	}
+
+	&.is-style-no-border {
+		border: 0;
+	}
+
+	.wp-block-columns & {
+		@media screen and (max-width: 767px) {
+			margin-bottom: 0;
+
+			p {
+				margin-bottom: 0;
+			}
+
+			cite {
+				margin-top: 35px;
+			}
+		}
+	}
+}
+
+.wp-block-buttons {
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.wp-block-button__link {
+	background-color: #000;
+	border: 1px solid #000;
+	border-radius: 0;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	font-style: italic;
+	padding: 12px 26px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 200ms;
+
+	&:hover {
+		background: #0058fe;
+		border: 1px solid #0058fe;
+		color: #fff;
+		transition: all 200ms;
+	}
+
+	&:active {
+		opacity: 0.9;
+	}
+
+	&:focus,
+	&:active {
+		opacity: 0.9;
+	}
+
+	@media screen and (min-width: 768px) {
+		font-size: 25px;
+	}
+
+	.dark-mode & {
+		background: #f1e9e7;
+		border-color: #f1e9e7;
+		color: #000;
+
+		&:hover {
+			background: #0058fe;
+			border: 1px solid #0058fe;
+			color: #fff;
+		}
+	}
+}
+
+.has-blue-color {
+	color: #0058fe;
+}
+
+.has-blue-background-color {
+	background-color: #0058fe;
+}
+
+.has-white-color {
+	color: #ffffff;
+}
+
+.has-white-background-color {
+	background-color: #ffffff;
+}
+
+.has-black-color {
+	color: #000000;
+}
+
+.has-black-background-color {
+	background-color: #000000;
+}
+
+.has-peach-color {
+	color: #f1e9e7;
+}
+
+.has-peach-background-color {
+	background-color: #f1e9e7;
+}
+
+.has-gray-color {
+	color: #7b7f83;
+}
+
+.has-gray-background-color {
+	background-color: #7b7f83;
+}
+
+.has-pink-color {
+	color: #ff3cfe;
+}
+
+.has-pink-background-color {
+	background-color: #ff3cfe;
+}
+
+.has-green-color {
+	color: #00e600;
+}
+
+.has-green-background-color {
+	background-color: #00e600;
+}
+
+.has-orange-color {
+	color: #fe4f00;
+}
+
+.has-orange-background-color {
+	background-color: #fe4f00;
+}

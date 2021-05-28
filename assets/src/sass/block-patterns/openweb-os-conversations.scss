@@ -1,0 +1,21 @@
+.ow-features-openweb-os-conversations-title[class] {
+	margin-bottom: 50px;
+}
+
+.ow-features-openweb-os-conversations-description[class] {
+	margin-bottom: 100px;
+}
+
+.ow-features-openweb-os-conversations-item {
+	margin-bottom: 100px;
+
+	.left, .right {
+		border-top: 1px solid black;
+		padding-top: 20px;
+	}
+
+	.right {
+		position: relative;
+		top: -28px;
+	}
+}

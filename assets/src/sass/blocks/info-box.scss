@@ -1,0 +1,39 @@
+@import "../colors";
+
+.wp-block-ow-feature-block-info-box {
+	.outer-div {
+		clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+		background-color: $blue;
+		width: 260px;
+		height: 202px;
+		position: relative;
+	}
+
+	.inner-div {
+		clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+		background-color: white;
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		width: 258px;
+		height: 200px;
+		padding: 20px 80px 20px 20px;
+		.title {
+			font-size: 21px;
+			color: $blue;
+			margin-bottom: 10px;
+		}
+
+		.description {
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+			color: $black;
+		}
+
+		&.square-shape {
+			border: 1px solid $blue;
+			clip-path: unset;
+		}
+	}
+}

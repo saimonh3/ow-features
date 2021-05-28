@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Copernicus';
+	font-style: normal;
+	src: url('galaxie-copernicus/GalaxieCopernicus-Book.woff2') format('woff2'), /* Super Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-Book.woff') format('woff'), /* Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-Book.eot') format('eot'); /* IE */
+}
+
+@font-face {
+	font-family: 'Copernicus';
+	font-style: italic;
+	src: url('galaxie-copernicus/GalaxieCopernicus-BookItalic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-BookItalic.woff') format('woff'), /* Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-BookItalic.eot') format('eot'); /* IE */
+}
+
+@font-face {
+	font-family: 'Copernicus';
+	font-style: normal;
+	font-weight: 700;
+	src: url('galaxie-copernicus/GalaxieCopernicus-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-Bold.woff') format('woff'), /* Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-Bold.eot') format('eot'); /* IE */
+}
+
+@font-face {
+	font-family: 'Copernicus';
+	font-style: italic;
+	font-weight: 700;
+	src: url('galaxie-copernicus/GalaxieCopernicus-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-BoldItalic.woff') format('woff'), /* Modern Browsers */
+	url('galaxie-copernicus/GalaxieCopernicus-BoldItalic.eot') format('eot'); /* IE */
+}
+
+

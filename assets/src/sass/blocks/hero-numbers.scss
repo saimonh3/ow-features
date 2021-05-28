@@ -1,0 +1,28 @@
+@import "../colors";
+
+.wp-block-ow-feature-block-hero-numbers {
+	.title {
+		font-size: 70px;
+
+		svg {
+			margin-right: 15px;
+			height: 60px;
+		}
+
+		&.border-top {
+			border-top: 1px solid black;
+			padding-top: 20px;
+		}
+
+		&.arrow-downward {
+			svg {
+				transform: rotate(180deg);
+			}
+		}
+	}
+
+	.description {
+		font-size: 30px;
+		color: $black;
+	}
+}
